@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CEgqE0wjyxZiyw8wIue3qkPxiPIUAs/6Fu1V7BvvLi2/lrbGO+YjL8Qvpdv6oN4PykrbCMaaKqpQADIxEnvi1A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\source\\repos\\ASP_API\\source\\ASP_API\\ASP_API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
