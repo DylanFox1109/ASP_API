@@ -1,12 +1,12 @@
-#######################################################################################
-# ASP_API Backend RESTful application.
-# Author : Dylan Fox
-########################################################################################
-# Executable is located at "./executable/ASP_API.exe"
-#	* port can be changed in the file "./executable/appsettings.json" on line 5
-# Source Code is located at "./source/..."
-#	* Created with Visual Studio Community Edition 2022
-########################################################################################
+#########################################
+# ASP_API Backend RESTful application.  #
+# Author : Dylan Fox                    #
+#########################################
+Executable is located at "./executable/ASP_API.exe"
+	* port can be changed in the file "./executable/appsettings.json" on line 5
+Source Code is located at "./source/..."
+	* Created with Visual Studio Community Edition 2022
+
 Application exposes the following functionality.
 
 GET Request /api/supervisors
