@@ -1,18 +1,31 @@
-
 # ASP_API Backend RESTful application.  #
-Author : Dylan Fox                    
+Author : Dylan Fox
 
-Executable is located at "./executable/ASP_API.exe"
-	* port can be changed in the file "./executable/appsettings.json" on line 5
-Source Code is located at "./source/..."
-	* Created with Visual Studio Community Edition 2022
-
-Application exposes the following functionality.
-
-GET Request /api/supervisors
-	https://localhost:7158/api/supervisors
-
-POST Request /api/submit
-	curl -X POST https://localhost:7158/api/submit -H "Content-Type:application/json" -d "{\"firstName\":\"John\",\"lastName\":\"Doe\",\"supervisor\":\"Danny\"}"
-	curl -X POST https://localhost:7183/api/submit -H "Content-Type:application/json" -d "{\"firstName\":\"John\",\"lastName\":\"Doe\",\"supervisor\":\"Danny\",\"phoneNumber\":\"111-111-1111\"}"
-	curl -X POST https://localhost:7183/api/submit -H "Content-Type:application/json" -d "{\"firstName\":\"John\",\"lastName\":\"Doe\",\"supervisor\":\"Danny\",\"email\":\"johndoe@email.com\",\"phoneNumber\":\"111-111-1111\"}"
+<p>Executable is located at "./executable/ASP_API.exe"<br>
+<i>port can be changed in the file "./executable/appsettings.json" on line 5 </i>
+</p>
+<p>Source Code is located at "./source/..." <br>
+	<i>created with Visual Studio Community Edition 2022</i>
+</p>
+<hr><br>
+Application exposes the following functionality.<br><br>
+GET Request /api/supervisors<br>
+<table>
+  <tr>
+    <td>https://localhost:7158/api/supervisors</td>
+  </tr>	
+</table>
+<br>
+POST Request /api/submit<br>
+<table>
+  <tr>
+    <td>curl -X POST https://localhost:7183/api/submit -H "Content-Type:application/json" -d "{\"firstName\":\"John\",\"lastName\":\"Doe\",\"supervisor\":\"Danny\"}"</td>
+  </tr>	
+  <tr>
+    <td>curl -X POST https://localhost:7183/api/submit -H "Content-Type:application/json" -d "{\"firstName\":\"John\",\"lastName\":\"Doe\",\"supervisor\":\"Danny\",\"phoneNumber\":\"111-111-1111\"}"</td>
+  </tr>	
+  <tr>
+    <td>curl -X POST https://localhost:7183/api/submit -H "Content-Type:application/json" -d "{\"firstName\":\"John\",\"lastName\":\"Doe\",\"supervisor\":\"Danny\",\"email\":\"johndoe@email.com\",\"phoneNumber\":\"111-111-1111\"}"</td>
+  </tr>		
+	
+	
