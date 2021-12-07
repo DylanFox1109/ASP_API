@@ -2,7 +2,7 @@
 Author : Dylan Fox
 
 <p>Executable is located at "./executable/ASP_API.exe"<br>
-<i>port can be changed in the file "./executable/appsettings.json" on line 5 </i>
+<i>port can be changed in the file "./executable/appsettings.json" on line 5 (default 7183)</i>
 </p>
 <p>Source Code is located at "./source/..." <br>
 	<i>created with Visual Studio Community Edition 2022</i>
@@ -12,7 +12,7 @@ Application exposes the following functionality.<br><br>
 GET Request /api/supervisors<br>
 <table>
   <tr>
-    <td>https://localhost:7158/api/supervisors</td>
+    <td>https://localhost:7183/api/supervisors</td>
   </tr>	
 </table>
 <br>
