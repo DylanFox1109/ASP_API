@@ -92,8 +92,7 @@ app.MapGet("/api/supervisors", () =>
 // submitted data printed to the console upon receiving POST /api/submit request.
 app.MapPost("/api/submit", (dataEntry entry) => {
     Console.WriteLine("### POST /api/submit ###\n"+entry.ToString()+"\n");
-
-    return Results.StatusCode(405);
+    return HttpStatusCode.Accepted;
 });
 
 app.Run();
